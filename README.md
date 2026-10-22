@@ -9,7 +9,7 @@ This project documents the process of installing the **Sailfish OS community por
 The Xperia 10 V is an interesting target because it uses the **Qualcomm Snapdragon 695** (SoC `holi`), a chip shared by many other popular phones. While the Sailfish port exists, it is still in an experimental state, and the boot process can be fragile.
 
 The goal of this repository is to:
-1. Document the exact flashing steps (Stock Android → LineageOS 22.2 → Sailfish OS).
+1. Document the exact flashing steps (Stock Android 14 → LineageOS 22.2 → Sailfish OS).
 2. Provide hardware diagnostics (dmesg logs, HAL listings) from the working LineageOS base.
 3. Track the known issues (boot hangs, camera crashes, battery reporting) and potential fixes.
 
@@ -26,7 +26,7 @@ The process of getting Sailfish OS onto this device involves multiple layers. Ea
 ## 🧱 The Stack
 
 The Sailfish OS community port for this device is built on top of:
-- **Sony AOSP 13** (reference base for the device configuration)
+- **Sony AOSP 14** (reference base for the device configuration, firmware `68.1.A.2.270`)
 - **LineageOS 22.2** (Android 15 base used for the flashing process)
 - **Sony v4b Blobs** (Proprietary binaries for the Snapdragon 695)
 - **Sailfish OS 5.1** (The final OS)
@@ -67,5 +67,7 @@ This baseline is useful for comparing against the Sailfish kernel logs to spot m
 ## 🤝 Contributing
 
 If you have successfully booted Sailfish OS on this device, or if you have patched the kernel to fix the boot hang, please open an issue or submit a pull request. The goal is to move this port from "experimental" to "daily driver".
+
+Remind you, this is for the most Deepseeks work with my commands... and i'm learning the Deepseek is not always correct... so after a lot of flashing i'm not sure the Sony v4b Blobs are actually installed..
 
 *Last updated: October 2026.*
