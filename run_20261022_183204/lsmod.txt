@@ -1,0 +1,44 @@
+Module                  Size  Used by
+rmnet_offload          32768  0 
+rmnet_shs             163840  0 
+native_dlkm           200704  0 
+wlan                 9527296  0 
+platform_dlkm        3543040  56 native_dlkm
+camera               3977216  23 
+machine_dlkm          196608  1 platform_dlkm
+rx_macro_dlkm         139264  0 
+va_macro_dlkm         135168  0 
+tx_macro_dlkm         155648  0 
+wcd938x_dlkm          147456  1 machine_dlkm
+wcd937x_dlkm          131072  2 machine_dlkm
+swr_ctrl_dlkm          61440  3 rx_macro_dlkm,va_macro_dlkm,tx_macro_dlkm
+aw882xx_dlkm          208896  2 
+bolero_cdc_dlkm        73728  5 machine_dlkm,rx_macro_dlkm,va_macro_dlkm,tx_macro_dlkm
+wcd9xxx_dlkm           49152  14 wcd938x_dlkm,wcd937x_dlkm
+pinctrl_lpi_dlkm       32768  11 
+bt_fm_slim             32768  1 
+stub_dlkm              24576  1 
+adsp_loader_dlkm       24576  0 
+q6_dlkm              1675264  11 native_dlkm,platform_dlkm,machine_dlkm,va_macro_dlkm,swr_ctrl_dlkm,aw882xx_dlkm,bolero_cdc_dlkm,wcd9xxx_dlkm,pinctrl_lpi_dlkm
+mbhc_dlkm              61440  2 wcd938x_dlkm,wcd937x_dlkm
+p73                    36864  0 
+leds_aw2016            32768  0 
+focaltech_fts         225280  0 
+wcd937x_slave_dlkm     24576  0 
+rdbg                   36864  0 
+ec617_drv              45056  2 
+sec_ts_drv            483328  0 
+wcd938x_slave_dlkm     24576  0 
+wsa881x_analog_dlkm    53248  0 
+apr_dlkm              245760  3 platform_dlkm,adsp_loader_dlkm,q6_dlkm
+wcd_core_dlkm          45056  7 machine_dlkm,rx_macro_dlkm,va_macro_dlkm,tx_macro_dlkm,wcd938x_dlkm,wcd937x_dlkm,wsa881x_analog_dlkm
+btpower                40960  1 bt_fm_slim
+bu520x1nvx             24576  0 
+q6_notifier_dlkm       24576  2 pinctrl_lpi_dlkm,apr_dlkm
+q6_pdr_dlkm            24576  1 q6_notifier_dlkm
+snd_event_dlkm         24576  5 machine_dlkm,bolero_cdc_dlkm,pinctrl_lpi_dlkm,q6_dlkm,apr_dlkm
+rmnet_core            217088  3 rmnet_offload,rmnet_shs
+swr_dlkm               40960  5 wcd938x_dlkm,wcd937x_dlkm,swr_ctrl_dlkm,wcd937x_slave_dlkm,wcd938x_slave_dlkm
+haptic                204800  0 
+rmnet_ctl              28672  1 rmnet_core
+snx0                   40960  2 p73

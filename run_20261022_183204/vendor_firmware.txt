@@ -1,0 +1,46 @@
+total 1428
+drwxr-xr-x  3 root shell    4096 2009-01-01 01:00 .
+drwxr-xr-x 17 root shell    4096 2009-01-01 01:00 ..
+-rw-r--r--  1 root root      148 2009-01-01 01:00 a615_zap.b00
+-rw-r--r--  1 root root     6560 2009-01-01 01:00 a615_zap.b01
+-rw-r--r--  1 root root     1984 2009-01-01 01:00 a615_zap.b02
+-rw-r--r--  1 root root    14272 2009-01-01 01:00 a615_zap.elf
+-rw-r--r--  1 root root     6708 2009-01-01 01:00 a615_zap.mdt
+-rw-r--r--  1 root root    32456 2009-01-01 01:00 a630_sqe.fw
+-rw-r--r--  1 root root     1504 2009-01-01 01:00 aw882xx_acf.bin
+lrw-r--r--  1 root root       37 2009-01-01 01:00 aw_cali.bin -> /mnt/vendor/persist/audio/aw_cali.bin
+lrw-r--r--  1 root root       27 2009-01-01 01:00 bdwlan.bin -> /vendor/etc/wifi/bdwlan.bin
+-rw-r--r--  1 root root      692 2009-01-01 01:00 evass.b00
+-rw-r--r--  1 root root     7376 2009-01-01 01:00 evass.b01
+-rw-r--r--  1 root root      296 2009-01-01 01:00 evass.b02
+-rw-r--r--  1 root root        8 2009-01-01 01:00 evass.b03
+-rw-r--r--  1 root root        8 2009-01-01 01:00 evass.b04
+-rw-r--r--  1 root root        8 2009-01-01 01:00 evass.b05
+-rw-r--r--  1 root root       12 2009-01-01 01:00 evass.b06
+-rw-r--r--  1 root root       24 2009-01-01 01:00 evass.b07
+-rw-r--r--  1 root root        8 2009-01-01 01:00 evass.b08
+-rw-r--r--  1 root root   402012 2009-01-01 01:00 evass.b09
+-rw-r--r--  1 root root   101032 2009-01-01 01:00 evass.b10
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b11
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b12
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b13
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b14
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b15
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b16
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b17
+-rw-r--r--  1 root root        0 2009-01-01 01:00 evass.b18
+-rw-r--r--  1 root root     4096 2009-01-01 01:00 evass.b19
+-rw-r--r--  1 root root  1556080 2009-01-01 01:00 evass.mbn
+-rw-r--r--  1 root root     8068 2009-01-01 01:00 evass.mdt
+-rw-r--r--  1 root root    54416 2009-01-01 01:00 focaltech_ts_fw_.bin
+-rw-r--r--  1 root root      212 2009-01-01 01:00 ipa_fws.b00
+-rw-r--r--  1 root root     6656 2009-01-01 01:00 ipa_fws.b01
+-rw-r--r--  1 root root    14408 2009-01-01 01:00 ipa_fws.b02
+-rw-r--r--  1 root root      128 2009-01-01 01:00 ipa_fws.b03
+-rw-r--r--  1 root root      840 2009-01-01 01:00 ipa_fws.b04
+-rw-r--r--  1 root root    33736 2009-01-01 01:00 ipa_fws.elf
+-rw-r--r--  1 root root     6868 2009-01-01 01:00 ipa_fws.mdt
+lrw-r--r--  1 root root       26 2009-01-01 01:00 regdb.bin -> /vendor/etc/wifi/regdb.bin
+-rw-r--r--  1 root root   158052 2009-01-01 01:00 s6sy761_p213.bin
+drwxr-xr-x  3 root shell    4096 2009-01-01 01:00 wlan
+lrw-r--r--  1 root root       34 2009-01-01 01:00 wlanmdsp.otaupdate -> /data/vendor/firmware/wlanmdsp.mbn
