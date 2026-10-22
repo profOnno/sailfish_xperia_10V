@@ -18,7 +18,7 @@ The goal of this repository is to:
 The process of getting Sailfish OS onto this device involves multiple layers. Each flash overwrites specific partitions while leaving the foundation intact.
 
 <p align="center">
-  <img src="./flashing-puzzle.svg" alt="Diagram showing the flashing process as a puzzle" width="100%">
+  <img src="./flashing_puzzle.png" alt="Diagram showing the flashing process as a puzzle" width="100%">
 </p>
 
 *If the image above does not render in your Markdown viewer, you can view the raw SVG file directly in this repository.*
